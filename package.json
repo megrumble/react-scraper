@@ -1,0 +1,24 @@
+{
+  "name": "react-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ 
+"scripts": {
+  "start": "node server/server.js",
+  "heroku-postbuild": "cd react-ui/ && npm install --only=dev && npm install && npm run build"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megrumble/react-scraper.git"
+  },
+  "author": "Margaret Rumble",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/megrumble/react-scraper/issues"
+  },
+  "homepage": "https://github.com/megrumble/react-scraper#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

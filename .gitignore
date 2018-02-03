@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# this will be for the react stuff
+react-ui/build
